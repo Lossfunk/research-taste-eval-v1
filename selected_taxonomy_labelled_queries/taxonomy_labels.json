@@ -1,0 +1,756 @@
+[
+  {
+    "base_id": "2601.05175_fw0_d1",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Incorporate answer confidence calibration into the training objective so that the model learns to assign high confidence to direct answers for simple inputs and low confidence for complex inputs requiring multi-step reasoning.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Validate the findings by conducting experiments across diverse model architectures, sampling strategies, scale variations, and training paradigms.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 2,
+    "models_diverged": [
+      "Haiku 4.5",
+      "GPT-OSS 120B"
+    ]
+  },
+  {
+    "base_id": "2601.05175_fw1_d0",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Investigate multimodal reasoning approaches that allow models to dynamically revisit visual content during the reasoning process rather than reasoning solely from initial encoded representations.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Investigate how reflection-like reasoning behaviors emerge and generalize by applying interventions during the training phase or incorporating supervision at intermediate reasoning steps.",
+    "dist_label": "mechanistic",
+    "dist_note": null,
+    "num_models_diverged": 2,
+    "models_diverged": [
+      "Opus 4.5",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.05175_fw1_d1",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Investigate multimodal reasoning approaches that allow models to dynamically revisit visual content during the reasoning process rather than reasoning solely from initial encoded representations.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Validate the findings by conducting experiments across diverse model architectures, sampling strategies, scale variations, and training paradigms.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 3,
+    "models_diverged": [
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.05175_fw2_d0",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Develop evaluation benchmarks that emphasize long-range temporal dependencies, compositional logic, and counterfactual reasoning to assess multimodal model capabilities beyond mathematical and symbolic tasks.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Investigate how reflection-like reasoning behaviors emerge and generalize by applying interventions during the training phase or incorporating supervision at intermediate reasoning steps.",
+    "dist_label": "mechanistic",
+    "dist_note": null,
+    "num_models_diverged": 4,
+    "models_diverged": [
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.05175_fw2_d1",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Develop evaluation benchmarks that emphasize long-range temporal dependencies, compositional logic, and counterfactual reasoning to assess multimodal model capabilities beyond mathematical and symbolic tasks.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Validate the findings by conducting experiments across diverse model architectures, sampling strategies, scale variations, and training paradigms.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 5,
+    "models_diverged": [
+      "Gemini Pro",
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.05175_fw3_d0",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Develop large-scale video datasets that explicitly require complex reasoning capabilities such as multi-step causal inference, temporal logic problems, or physically grounded scenarios.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Investigate how reflection-like reasoning behaviors emerge and generalize by applying interventions during the training phase or incorporating supervision at intermediate reasoning steps.",
+    "dist_label": "mechanistic",
+    "dist_note": null,
+    "num_models_diverged": 5,
+    "models_diverged": [
+      "Gemini Flash",
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-OSS 120B",
+      "Qwen3 Max"
+    ]
+  },
+  {
+    "base_id": "2601.05175_fw3_d1",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Develop large-scale video datasets that explicitly require complex reasoning capabilities such as multi-step causal inference, temporal logic problems, or physically grounded scenarios.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Validate the findings by conducting experiments across diverse model architectures, sampling strategies, scale variations, and training paradigms.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 5,
+    "models_diverged": [
+      "Gemini Pro",
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.05175_fw4_d0",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Investigate the application of sophisticated reasoning patterns to spatial or temporal localization tasks in video understanding.",
+    "gt_label": "scaling",
+    "gt_note": null,
+    "distractor_future_work": "Investigate how reflection-like reasoning behaviors emerge and generalize by applying interventions during the training phase or incorporating supervision at intermediate reasoning steps.",
+    "dist_label": "mechanistic",
+    "dist_note": null,
+    "num_models_diverged": 5,
+    "models_diverged": [
+      "Gemini Flash",
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max"
+    ]
+  },
+  {
+    "base_id": "2601.05175_fw4_d1",
+    "paper_id": "2601.05175",
+    "gt_future_work": "Investigate the application of sophisticated reasoning patterns to spatial or temporal localization tasks in video understanding.",
+    "gt_label": "scaling",
+    "gt_note": null,
+    "distractor_future_work": "Validate the findings by conducting experiments across diverse model architectures, sampling strategies, scale variations, and training paradigms.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 4,
+    "models_diverged": [
+      "Opus 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.02439_fw0_d0",
+    "paper_id": "2601.02439",
+    "gt_future_work": "Develop evaluation methods that treat automatically generated assessment criteria as soft guidance by training evaluators that jointly condition on both the criteria and task descriptions, rather than applying them as strict binary rules.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Incorporate human feedback mechanisms to refine automatically generated evaluation criteria through review, template reuse, and failure-mode-specific guidance.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Gemini Flash"
+    ]
+  },
+  {
+    "base_id": "2601.02439_fw0_d1",
+    "paper_id": "2601.02439",
+    "gt_future_work": "Develop evaluation methods that treat automatically generated assessment criteria as soft guidance by training evaluators that jointly condition on both the criteria and task descriptions, rather than applying them as strict binary rules.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Investigate multimodal reasoning approaches that allow models to dynamically revisit visual content during the reasoning process rather than reasoning solely from initial encoded representations.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 2,
+    "models_diverged": [
+      "Haiku 4.5",
+      "GPT-OSS 120B"
+    ]
+  },
+  {
+    "base_id": "2512.22322_fw0_d0",
+    "paper_id": "2512.22322",
+    "gt_future_work": "Collect domain-specific training corpora and conduct comprehensive continued pre-training and supervised fine-tuning to prepare foundation models for reinforcement learning on specialized task domains.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Investigate methods for creating evaluation criteria that are both rigorous and deterministic while avoiding overly specific or prescriptive constraints.",
+    "dist_label": "methodological",
+    "dist_note": null,
+    "num_models_diverged": 7,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2512.22322_fw0_d1",
+    "paper_id": "2512.22322",
+    "gt_future_work": "Collect domain-specific training corpora and conduct comprehensive continued pre-training and supervised fine-tuning to prepare foundation models for reinforcement learning on specialized task domains.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Investigate multimodal reasoning approaches that allow models to dynamically revisit visual content during the reasoning process rather than reasoning solely from initial encoded representations.",
+    "dist_label": "methodological",
+    "dist_note": null,
+    "num_models_diverged": 8,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.22930_fw2_d0",
+    "paper_id": "2601.22930",
+    "gt_future_work": "Explore integrating learned reward agents into the multi-turn interaction paradigm and adapting the framework to work with agents in different simulation environments.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Investigate how the proposed training scheme scales to larger parameter models to determine whether more powerful base models amplify the benefits of structured reasoning feedback.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.07755_fw0_d1",
+    "paper_id": "2602.07755",
+    "gt_future_work": "Jointly learn the memory design and the agentic system itself to enable exploration of a larger design space and achieve better integration between memory design and the agentic system.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore open-ended, real-world applications that involve more diverse toolsets and unpredictable task environments to validate the scheme's adaptability beyond standardized benchmarks with broader toolsets and more intricate reasoning chains.",
+    "dist_label": "application",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Gemini Flash"
+    ]
+  },
+  {
+    "base_id": "2602.07755_fw4_d1",
+    "paper_id": "2602.07755",
+    "gt_future_work": "Establish a systematic inspection mechanism that incorporates both AI and human oversight for monitoring the system as it scales and is deployed in real-world settings.",
+    "gt_label": "application",
+    "gt_note": null,
+    "distractor_future_work": "Explore open-ended, real-world applications that involve more diverse toolsets and unpredictable task environments to validate the scheme's adaptability beyond standardized benchmarks with broader toolsets and more intricate reasoning chains.",
+    "dist_label": "application",
+    "dist_note": null,
+    "num_models_diverged": 8,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.21468_fw1_d1",
+    "paper_id": "2601.21468",
+    "gt_future_work": "Improve the budget allocation policy by introducing more flexible structured text formats.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Incorporate multi-objective optimization techniques to enable more effective exploration of the efficiency-performance trade-off.",
+    "dist_label": "methodological",
+    "dist_note": "representation/allocation change vs optimization-objective change",
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Gemini Flash"
+    ]
+  },
+  {
+    "base_id": "2602.02366_fw0_d0",
+    "paper_id": "2602.02366",
+    "gt_future_work": "Explore the proposed method as a post-training approach to acquire skills beyond reasoning capabilities.",
+    "gt_label": "application",
+    "gt_note": null,
+    "distractor_future_work": "Explore methods that explicitly test generalizability and scalability, and incorporate them as optimization objectives.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 6,
+    "models_diverged": [
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.02366_fw2_d0",
+    "paper_id": "2602.02366",
+    "gt_future_work": "Integrate trainable cache representations into existing inference systems and post-training frameworks using mechanisms similar to standard caching approaches.",
+    "gt_label": "application",
+    "gt_note": null,
+    "distractor_future_work": "Explore methods that explicitly test generalizability and scalability, and incorporate them as optimization objectives.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 6,
+    "models_diverged": [
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.02366_fw3_d0",
+    "paper_id": "2602.02366",
+    "gt_future_work": "Develop methods that allow the key-value cache to remain adaptable during inference time.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore methods that explicitly test generalizability and scalability, and incorporate them as optimization objectives.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 5,
+    "models_diverged": [
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.02366_fw4_d0",
+    "paper_id": "2602.02366",
+    "gt_future_work": "Develop methods that maintain plasticity of the key-value cache during inference to enable continual learning capabilities.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore methods that explicitly test generalizability and scalability, and incorporate them as optimization objectives.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 6,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "Opus 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.10067_fw1_d0",
+    "paper_id": "2602.10067",
+    "gt_future_work": "Explore cascading reward functions by using a more expensive verification method when the confidence of the initial probe is low.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Investigate how the proposed training scheme scales to larger parameter models to determine whether more powerful base models amplify the benefits of structured reasoning feedback.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.10067_fw2_d0",
+    "paper_id": "2602.10067",
+    "gt_future_work": "Use interpretability techniques to investigate why inlining interventions reduces hallucination rates, specifically examining whether this occurs due to changes in model beliefs in-context.",
+    "gt_label": "mechanistic",
+    "gt_note": null,
+    "distractor_future_work": "Investigate how the proposed training scheme scales to larger parameter models to determine whether more powerful base models amplify the benefits of structured reasoning feedback.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 2,
+    "models_diverged": [
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.13232_fw0_d1",
+    "paper_id": "2601.13232",
+    "gt_future_work": "Integrate quantum chemistry computational methods and machine learning to balance accuracy and efficiency for real-time simulation.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 2,
+    "models_diverged": [
+      "Haiku 4.5",
+      "GPT-5.2 Pro"
+    ]
+  },
+  {
+    "base_id": "2601.13232_fw1_d0",
+    "paper_id": "2601.13232",
+    "gt_future_work": "Incorporate physics engine capabilities and semantics integration into future versions of the simulation framework.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 8,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.13232_fw3_d1",
+    "paper_id": "2601.13232",
+    "gt_future_work": "Adopt more flexible task planning frameworks such as behavior trees or and-or graphs for autonomous robotic workflows.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 2,
+    "models_diverged": [
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B"
+    ]
+  },
+  {
+    "base_id": "2601.13232_fw4_d1",
+    "paper_id": "2601.13232",
+    "gt_future_work": "Refine object pose estimation techniques, potentially through integration of multimodal sensor data, to improve real-to-sim deployment performance.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 4,
+    "models_diverged": [
+      "Gemini Flash",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max"
+    ]
+  },
+  {
+    "base_id": "2601.13232_fw5_d1",
+    "paper_id": "2601.13232",
+    "gt_future_work": "Integrate real-time feedback from IoT sensors to detect deviations between simulation and reality in future versions of the digital twin framework.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 2,
+    "models_diverged": [
+      "Gemini Flash",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.13232_fw7_d1",
+    "paper_id": "2601.13232",
+    "gt_future_work": "Expand the skill library to include manipulation policies for soft and delicate objects such as flexible materials and fragile containers.",
+    "gt_label": "scaling",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 4,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B"
+    ]
+  },
+  {
+    "base_id": "2601.13232_fw12_d1",
+    "paper_id": "2601.13232",
+    "gt_future_work": "Investigate online identification of heat transfer constants using sensors to align simulations with real-world results.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.14525_fw0_d1",
+    "paper_id": "2601.14525",
+    "gt_future_work": "Improve the execution agent to enable correct implementation of more complex idea types, such as those requiring additional model training or system-level optimizations.",
+    "gt_label": "infrastructure",
+    "gt_note": "Relabelled from methodological: the execution agent is supporting tooling/infrastructure around the papers core ideation-learning contribution, not the core method itself.",
+    "distractor_future_work": "Investigate designed verification tasks, more principled integration of verification and generation objectives, and more efficient training strategies to further leverage verification's potential to improve generation.",
+    "dist_label": "methodological",
+    "dist_note": null,
+    "num_models_diverged": 5,
+    "models_diverged": [
+      "Gemini Flash",
+      "Opus 4.5",
+      "GPT-5.2 Pro",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.14525_fw5_d0",
+    "paper_id": "2601.14525",
+    "gt_future_work": "Implement more capable coding agents with access to external tools and the ability to install new libraries in the execution environments, rather than directly prompting a language model for code modifications.",
+    "gt_label": "scaling",
+    "gt_note": "extending the system to handle broader, harder, or more capable operating regimes",
+    "distractor_future_work": "Investigate how the proposed training scheme scales to larger parameter models to determine whether more powerful base models amplify the benefits of structured reasoning feedback.",
+    "dist_label": "scaling",
+    "dist_note": "mechanistic motive: tests whether backbone scale modulates the effect of structured reasoning feedback",
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Haiku 4.5"
+    ]
+  },
+  {
+    "base_id": "2601.23265_fw1_d0",
+    "paper_id": "2601.23265",
+    "gt_future_work": "Explore dynamic style adaptation mechanisms that enable broader artistic expression and personalized aesthetic choices while maintaining professional standards and academic rigor.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 3,
+    "models_diverged": [
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.09163_fw0_d0",
+    "paper_id": "2602.09163",
+    "gt_future_work": "Extend the benchmark to incorporate PDF format as input for evaluating AI agent systems on ontology-based curation tasks.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 4,
+    "models_diverged": [
+      "Gemini Flash",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.09163_fw0_d1",
+    "paper_id": "2602.09163",
+    "gt_future_work": "Extend the benchmark to incorporate PDF format as input for evaluating AI agent systems on ontology-based curation tasks.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Improve computational and retrieval efficiency to enable larger-scale expansion and utility of the knowledge graph.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 7,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "Opus 4.5",
+      "Haiku 4.5",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.09163_fw1_d0",
+    "paper_id": "2602.09163",
+    "gt_future_work": "Extend coverage of accessible literature by establishing institutional partnerships or expanding open-access corpus availability.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 7,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "Opus 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.09163_fw1_d1",
+    "paper_id": "2602.09163",
+    "gt_future_work": "Extend coverage of accessible literature by establishing institutional partnerships or expanding open-access corpus availability.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Improve computational and retrieval efficiency to enable larger-scale expansion and utility of the knowledge graph.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 7,
+    "models_diverged": [
+      "Gemini Flash",
+      "Gemini Pro",
+      "Opus 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2602.09163_fw2_d0",
+    "paper_id": "2602.09163",
+    "gt_future_work": "Conduct human validation studies to measure the quality and accuracy of AI agent-generated ontology-based curation outputs.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Qwen3 Max"
+    ]
+  },
+  {
+    "base_id": "2602.09163_fw4_d0",
+    "paper_id": "2602.09163",
+    "gt_future_work": "Test few-shot examples that demonstrate implicit inference and multi-step extraction by first identifying experimental outcomes to help infer biological processes.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "dist_label": "infrastructure",
+    "dist_note": null,
+    "num_models_diverged": 3,
+    "models_diverged": [
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max"
+    ]
+  },
+  {
+    "base_id": "2601.12607_fw0_d0",
+    "paper_id": "2601.12607",
+    "gt_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Extend the approach to resolve questions with conflicting evidence, similar to critical literature review tasks.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Opus 4.5"
+    ]
+  },
+  {
+    "base_id": "2601.12607_fw0_d1",
+    "paper_id": "2601.12607",
+    "gt_future_work": "Explore customized orchestration backends that support richer control flow and tighter integration with scientific compute environments.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Investigate more robust constraint mechanisms to effectively guide agents through long-horizon, repetitive tasks.",
+    "dist_label": "methodological",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Opus 4.5"
+    ]
+  },
+  {
+    "base_id": "2602.07491_fw3_d1",
+    "paper_id": "2602.07491",
+    "gt_future_work": "Integrate the computational framework with autonomous synthesis laboratories to enable automated translation of generated material design hypotheses into physical prototypes.",
+    "gt_label": "application",
+    "gt_note": null,
+    "distractor_future_work": "Extend the approach to resolve questions with conflicting evidence, similar to critical literature review tasks.",
+    "dist_label": "methodological",
+    "dist_note": null,
+    "num_models_diverged": 5,
+    "models_diverged": [
+      "Gemini Pro",
+      "Opus 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max"
+    ]
+  },
+  {
+    "base_id": "2602.07491_fw4_d0",
+    "paper_id": "2602.07491",
+    "gt_future_work": "Improve computational and retrieval efficiency to enable larger-scale expansion and utility of the knowledge graph.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Extend the approach to resolve questions with conflicting evidence, similar to critical literature review tasks.",
+    "dist_label": "methodological",
+    "dist_note": null,
+    "num_models_diverged": 6,
+    "models_diverged": [
+      "Gemini Flash",
+      "Opus 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Qwen3 Max",
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.18207_fw4_d1",
+    "paper_id": "2601.18207",
+    "gt_future_work": "Equip agents with tools and metadata that real scientists use in their work, such as citation traversal capabilities and source reliability metrics.",
+    "gt_label": "methodological",
+    "gt_note": null,
+    "distractor_future_work": "Investigate how the proposed training scheme scales to larger parameter models to determine whether more powerful base models amplify the benefits of structured reasoning feedback.",
+    "dist_label": "scaling",
+    "dist_note": null,
+    "num_models_diverged": 1,
+    "models_diverged": [
+      "Llama Maverick"
+    ]
+  },
+  {
+    "base_id": "2601.18207_fw8_d1",
+    "paper_id": "2601.18207",
+    "gt_future_work": "Apply mitigations to the data generation methodology by excluding problematic question categories identified through human review or by designing a workflow to retrieve all relevant papers to check for conflicts.",
+    "gt_label": "infrastructure",
+    "gt_note": null,
+    "distractor_future_work": "Train a more agentic model capable of planning, deciding when to invoke tools, and coordinating tool use more effectively to enable better credit assignment and more efficient inference-time computation.",
+    "dist_label": "methodological",
+    "dist_note": null,
+    "num_models_diverged": 4,
+    "models_diverged": [
+      "Opus 4.5",
+      "GPT-5.2 Pro",
+      "GPT-OSS 120B",
+      "Llama Maverick"
+    ]
+  }
+]
