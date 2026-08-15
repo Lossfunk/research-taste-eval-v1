@@ -18,7 +18,7 @@ The evaluation presents a model with a paper's research goal, the hypotheses it 
 - `no-role.json`, `no-goal.json`, `reframed-task.json` — responses to the three prompt ablations, each re-running all 169 events in both orderings (338 records per file). Each record carries the modified prompt it was run with.
 - `author_pref_prediction.json` — responses under the author-preference framing ("which would the authors choose?"). Excludes Gemini 3 Pro, so covers 157 events (314 records).
 
-**`taxonomy/`**
+**`selected_taxonomy_labelled_queries/`**
 
 - `taxonomy_labels.json` — category labels for the author-recommended direction and the distractor in each of the 45 stable-divergence pairs, with the diverging models per pair.
 
